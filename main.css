@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.bigBlock {
+    width: 100%;
+    height: 600px;
+}
+
+.bigBlock:first-child  {
+    background-color: rgb(161, 160, 160);
+    padding-top: 399px;
+    
+}
+
+.bigBlock:nth-child(2) {
+    padding: 60px 70px;
+    position: relative;
+}
+
+.bigBlock:nth-child(3)  {
+    background-color: rgb(161, 160, 160);
+    padding-top: 85px;
+}
+
+.bigBlock_text {
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+}
+
+.bigBlock_redLine {
+    height: 5px;
+    background-color: red;
+    width: 211px;
+    position: relative;
+}
+
+img {
+    width: 383px;
+    height: 247px;
+    margin-top: 40px;
+    position: absolute;
+    right: 70px;
+}
+
+.ScrollDown, .ScrollUp{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    display: block;
+    background-color: transparent;
+    border: none;
+    transition: .4s;
+}
+
+.ScrollUp {
+    font-size: 60px;
+    transition: 1.5s;
+} 
+
+
